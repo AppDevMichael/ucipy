@@ -1,8 +1,0 @@
-README.md
-setup.py
-ucipy/__init__.py
-ucipy/uci.py
-ucipy.egg-info/PKG-INFO
-ucipy.egg-info/SOURCES.txt
-ucipy.egg-info/dependency_links.txt
-ucipy.egg-info/top_level.txt
