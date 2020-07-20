@@ -1,33 +1,33 @@
 # -*- mode: conf -*- 
 # 
 
-config queue 'incoming'
+config incoming 'queue'
 	option 'base_dir' 'mntsdcardincoming'
 
 
-config queue 'outgoing'
+config outgoing 'queue'
 	option 'base_dir' 'mntsdcardoutgoing'
 
 
-config telemetry 'IRI'
+config IRI 'telemetry'
 	option 'type' 'iridium'
 	option 'transport' 'SBD'
 	option 'priority' '1'
 	option 'enabled' '0'
 
 
-config transport 'SBD'
+config SBD 'transport'
 	option 'type' 'sbd'
 
 
-config telemetry 'GSM'
+config GSM 'telemetry'
 	option 'type' 'gsm'
 	option 'transport' 'EMAIL'
 	option 'priority' '3'
 	option 'enabled' '1'
 
 
-config transport 'EMAIL'
+config EMAIL 'transport'
 	option 'type' 'email'
 	option 'email' 'tmbbXXXX.techworksgmail.com'
 	option 'smtp_server' 'smtp.gmail.com'
@@ -42,7 +42,7 @@ config transport 'EMAIL'
 	option 'report_to' 'tmcc.techworksgmail.com'
 
 
-config device 'TMBB'
+config TMBB 'device'
 	option 'deployment_id' '1'
 	option 'type' 'techworks_tmbb'
 	option 'enabled' '1'
@@ -54,7 +54,7 @@ config device 'TMBB'
 	option 'sampling_period' '60'
 
 
-config device 'WQM'
+config WQM 'device'
 	option 'deployment_id' '2'
 	option 'type' 'wetlabs_wqm'
 	option 'connector' 'SER1.1'
@@ -64,28 +64,28 @@ config device 'WQM'
 	option 'blis_nb_squirts' '0'
 
 
-config device 'AQUAPRO'
+config AQUAPRO 'device'
 	option 'deployment_id' '3'
 	option 'type' 'nortek_aquapro'
 	option 'connector' 'SER1.2'
 	option 'enabled' '0'
 
 
-config device 'AQUADOPP'
+config AQUADOPP 'device'
 	option 'deployment_id' '4'
 	option 'type' 'nortek_aquadopp'
 	option 'connector' 'SER1.3'
 	option 'enabled' '0'
 
 
-config device 'PB200'
+config PB200 'device'
 	option 'deployment_id' '5'
 	option 'type' 'airmar_pb200'
 	option 'connector' 'SER1.4'
 	option 'enabled' '0'
 
 
-config device 'SBE37_SMP_ODO'
+config SBE37_SMP_ODO 'device'
 	option 'deployment_id' '6'
 	option 'type' 'seabird_sbe37smpodo'
 	option 'connector' 'SER1.2'
@@ -96,56 +96,56 @@ config device 'SBE37_SMP_ODO'
 	option 'oxygen_average_sample' '2'
 
 
-config device '200WX'
+config 200WX 'device'
 	option 'deployment_id' '7'
 	option 'type' 'airmar_200wx'
 	option 'connector' 'SER1.4'
 	option 'enabled' '0'
 
 
-config device 'GPS'
+config GPS 'device'
 	option 'deployment_id' '8'
 	option 'type' 'gpsbee'
 	option 'connector' 'devttyUSB0'
 	option 'enabled' '0'
 
 
-config device 'ADCP'
+config ADCP 'device'
 	option 'deployment_id' '9'
 	option 'type' 'adcp_sentinel'
 	option 'connector' 'SER1.3'
 	option 'enabled' '0'
 
 
-config device 'triaxys'
+config triaxys 'device'
 	option 'deployment_id' '10'
 	option 'type' 'triaxys_wave'
 	option 'connector' 'SER1.3'
 	option 'enabled' '0'
 
 
-config device 'WX520'
+config WX520 'device'
 	option 'deployment_id' '11'
 	option 'type' 'vaisala_wx520'
 	option 'connector' 'SER1.1'
 	option 'enabled' '0'
 
 
-config device 'SBE39'
+config SBE39 'device'
 	option 'deployment_id' '12'
 	option 'type' 'seabird_sbe39'
 	option 'connector' 'SER1.2'
 	option 'enabled' '0'
 
 
-config device 'SBE16'
+config SBE16 'device'
 	option 'deployment_id' '13'
 	option 'type' 'seabird_sbe16plusodo'
 	option 'connector' 'SER1.2'
 	option 'enabled' '0'
 
 
-config device 'ADC_Turbidity'
+config ADC_Turbidity 'device'
 	option 'deployment_id' '14'
 	option 'type' 'techworks_adc'
 	option 'connector' 'SER1.2'
