@@ -5,7 +5,7 @@ Created Date: Friday, 17th July 2020 12:49:35 pm
 -----
 Author: Michael O'Connell
 -----
-Last Modified: Monday, 20th July 2020 12:56:44 pm
+Last Modified: Monday, 20th July 2020 2:41:00 pm
 Modified By: Michael O'Connell
 '''
 import os
@@ -43,9 +43,9 @@ class ConfigFile():
             for line in config_file.readlines():
 
                 if(line[0:6] == "config"):
-                    config = line.split(" ")[1]
+                    config = line.split(" ")[2]
 
-                    config2 = line.split(" ")[2]
+                    config2 = line.split(" ")[1]
 
                     configs.append({"config": [re.sub(
                         r'[^a-zA-Z0-9_.]', '', config), re.sub(r'[^a-zA-Z0-9_.]', '', config2)]})
