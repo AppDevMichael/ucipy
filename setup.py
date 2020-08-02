@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ucipy", # Replace with your own username
-    version="0.1",
+    version="0.0.1",
     author="Michael O'Connell",
     author_email="michael.dev012@gmail.com",
     description="For parsing OpenWRT UCI configs",

@@ -3,6 +3,11 @@
 
 config incoming 'queue'
 	option 'base_dir' 'mntsdcardincoming'
+    list "testing" "Bruh"
+    list "testing" "bro"
+    list "testing" "Broh"
+    list "testing" "bru"
+    list "testing" "BRUH"    
 
 
 config outgoing 'queue'
